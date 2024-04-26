@@ -1,6 +1,6 @@
 # dtapars
 ## Introduction
-    - dtapars 是对于yolo的数据集进行处理和划分的脚本集合
+- dtapars 是对于yolo的数据集进行处理和划分的脚本集合
 ## installer
     - git clone https://github.com/zheng0116/dtapars.git
     - pip install -r requirements.txt
