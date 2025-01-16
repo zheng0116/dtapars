@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ```
 ### 切换路径
 ```bach
-cd cd parsing
+cd parsing
 ```
 ## 使用方法
 ### 使用以下命令来运行单个脚本：
@@ -27,5 +27,10 @@ cd cd parsing
 ```bach
  python json_to_yolo.py #json to yolo pose
 ```
-
+### keypoint 转换成yolo
+```bach
+cd ./parsing/keypoint
+python media_label.py #using mediapipe to generate labels
+python convert.py #convert to yolo format
+```
 
